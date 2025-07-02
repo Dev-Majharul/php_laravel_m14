@@ -43,7 +43,7 @@ a {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/hero-bg.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/hero-bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -53,12 +53,30 @@ a {
     align-items: center;
 }
 
+
+/* Service Section */
+.service-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/service-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This makes the background image "stick" as you scroll */
+}
+
+
 /* Portfolio Styles */
 .portfolio-img-wrapper {
     position: relative;
     overflow: hidden;
 }
 
+.portfolio-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/service-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This makes the background image "stick" as you scroll */
+}
 .portfolio-overlay {
     position: absolute;
     top: 0;

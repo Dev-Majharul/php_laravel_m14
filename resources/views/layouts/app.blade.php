@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="{{ route('home') }}">
-                <img src="{{ asset('assets/images/logo.png') }}" alt="Logo" height="30">
+                <h4 alt="Logo" height="30">Md Majharul Islam</h4>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -51,13 +51,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+                    <p>&copy; 2025 Md Majharul Islam. All rights reserved.</p>
                 </div>
                 <div class="col-md-6 text-end">
-                    <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="text-white me-2"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/Md.Majhaurl.islam.official/" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/majharul_islam" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/majharul-islam-54922" class="text-white me-2"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/majharul_islam" class="text-white"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>

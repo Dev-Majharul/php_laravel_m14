@@ -4,8 +4,7 @@
 
 @section('content')
         <!-- Services Section -->
-    <section class="py-5 mt-5">
-        <div class="container">
+    <section class="py-5 service-section" >
             <div class="text-center mb-5">
                 <h2 class="display-5">My Services</h2>
                 <p class="lead">I offer a range of professional services to help your business grow online.</p>
@@ -81,12 +80,28 @@
                             <div class="icon-box bg-primary bg-opacity-10 text-primary rounded-circle mx-auto mb-4" style="width: 60px; height: 60px; line-height: 60px;">
                                 <i class="fas fa-bullhorn fa-lg"></i>
                             </div>
-                            <h5 class="card-title">Digital Marketing</h5>
-                            <p class="card-text">Comprehensive digital marketing strategies to increase your online presence and customer engagement.</p>
+                            <h5 class="card-title">Saas Application</h5>
+                            <p class="card-text">Comprehensive Saas application development to increase your online presence and customer engagement.</p>
                             <ul class="list-unstyled text-start">
-                                <li><i class="fas fa-check text-primary me-2"></i> Social Media</li>
-                                <li><i class="fas fa-check text-primary me-2"></i> Content Marketing</li>
-                                <li><i class="fas fa-check text-primary me-2"></i> Email Campaigns</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Laravel</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> React</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Tailwind CSS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-box bg-primary bg-opacity-10 text-primary rounded-circle mx-auto mb-4" style="width: 60px; height: 60px; line-height: 60px;">
+                                <i class="fas fa-file-alt fa-lg"></i>
+                            </div>
+                            <h5 class="card-title">CMS Application</h5>
+                            <p class="card-text">Comprehensive CMS application development to increase your online presence and customer engagement.</p>
+                            <ul class="list-unstyled text-start">
+                                <li><i class="fas fa-check text-primary me-2"></i> Laravel</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> PHP</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> MySQL</li>
                             </ul>
                         </div>
                     </div>
@@ -107,7 +122,24 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-box bg-primary bg-opacity-10 text-primary rounded-circle mx-auto mb-4" style="width: 60px; height: 60px; line-height: 60px;">
+                                <i class="fas fa-shopping-cart fa-lg"></i>
+                            </div>
+                            <h5 class="card-title">E-commerce Application</h5>
+                            <p class="card-text">E-commerce application development to increase your online presence and customer engagement.</p>
+                            <ul class="list-unstyled text-start">
+                                <li><i class="fas fa-check text-primary me-2"></i> Laravel</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> PHP</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> MySQL</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </div>
     </section>
 
@@ -122,9 +154,9 @@
                             <div class="carousel-item active">
                                 <div class="card border-0 bg-white shadow-sm">
                                     <div class="card-body p-4 text-center">
-                                        <img src="https://randomuser.me/api/portraits/women/32.jpg" class="rounded-circle mb-3" width="80" alt="Client">
-                                        <p class="lead mb-4">"John transformed our outdated website into a modern, user-friendly platform that has significantly increased our online sales. His attention to detail and communication throughout the project were exceptional."</p>
-                                        <h5 class="mb-1">Sarah Johnson</h5>
+                                        <img src="{{ asset('assets/images/client.jpg') }}" class="rounded-circle mb-3" width="80" alt="Client">
+                                        <p class="lead mb-4">"Majharul transformed our outdated website into a modern, user-friendly platform that has significantly increased our online sales. His attention to detail and communication throughout the project were exceptional."</p>
+                                        <h5 class="mb-1">Yasin Arafat</h5>
                                         <p class="text-muted">CEO, TechSolutions Inc.</p>
                                     </div>
                                 </div>
@@ -132,9 +164,9 @@
                             <div class="carousel-item">
                                 <div class="card border-0 bg-white shadow-sm">
                                     <div class="card-body p-4 text-center">
-                                        <img src="https://randomuser.me/api/portraits/men/45.jpg" class="rounded-circle mb-3" width="80" alt="Client">
-                                        <p class="lead mb-4">"Working with John on our mobile app was a great experience. He delivered the project on time and within budget, and the final product exceeded our expectations. We've already seen a 40% increase in user engagement."</p>
-                                        <h5 class="mb-1">Michael Chen</h5>
+                                        <img src="{{ asset('assets/images/client.jpg') }}" class="rounded-circle mb-3" width="80" alt="Client">
+                                        <p class="lead mb-4">"Working with Majharul on our mobile app was a great experience. He delivered the project on time and within budget, and the final product exceeded our expectations. We've already seen a 40% increase in user engagement."</p>
+                                        <h5 class="mb-1">Yasin Arafat</h5>
                                         <p class="text-muted">Founder, AppVenture</p>
                                     </div>
                                 </div>
@@ -142,9 +174,9 @@
                             <div class="carousel-item">
                                 <div class="card border-0 bg-white shadow-sm">
                                     <div class="card-body p-4 text-center">
-                                        <img src="https://randomuser.me/api/portraits/women/68.jpg" class="rounded-circle mb-3" width="80" alt="Client">
-                                        <p class="lead mb-4">"John's SEO expertise helped our small business rank on the first page of Google for several competitive keywords. Our website traffic has tripled, and we're getting more qualified leads than ever before."</p>
-                                        <h5 class="mb-1">Emily Rodriguez</h5>
+                                        <img src="{{ asset('assets/images/client.jpg') }}" class="rounded-circle mb-3" width="80" alt="Client">
+                                        <p class="lead mb-4">"Majharul's SEO expertise helped our small business rank on the first page of Google for several competitive keywords. Our website traffic has tripled, and we're getting more qualified leads than ever before."</p>
+                                        <h5 class="mb-1">Yasin Arafat</h5>
                                         <p class="text-muted">Marketing Director, GreenLeaf Organics</p>
                                     </div>
                                 </div>

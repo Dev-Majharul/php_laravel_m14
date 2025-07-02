@@ -16,15 +16,15 @@
                         <ul class="list-unstyled">
                             <li class="mb-3">
                                 <i class="fas fa-map-marker-alt text-primary me-2"></i>
-                                <span>123 Main Street, New York, NY 10001</span>
+                                <span>Dhaka, Bangladesh</span>
                             </li>
                             <li class="mb-3">
                                 <i class="fas fa-envelope text-primary me-2"></i>
-                                <a href="mailto:john@example.com">john@example.com</a>
+                                <a href="mailto:samir.official.bd@gmail.com">samir.official.bd@gmail.com</a>
                             </li>
                             <li class="mb-3">
                                 <i class="fas fa-phone text-primary me-2"></i>
-                                <a href="tel:+1234567890">(123) 456-7890</a>
+                                <a href="tel:+8801717000000">+8801717000000</a>
                             </li>
                         </ul>
                     </div>
@@ -75,7 +75,7 @@
     <section class="py-0">
         <div class="container-fluid px-0">
             <div class="ratio ratio-21x9">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215256836312!2d-73.9878449241646!3d40.74844097138988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1689877607784!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7379.943514730742!2d91.82001102694285!3d22.354695238479646!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b6eb6ffc0710c3%3A0xd4d5d15c5008061d!2sS%20Denver%20Ave.%2C%20Tulsa%2C%20OK%2C%20USA!5e0!3m2!1sen!2sbd!4v1751493773475!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>

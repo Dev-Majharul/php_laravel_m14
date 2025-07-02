@@ -8,9 +8,9 @@
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-lg-6">
-                    <h1 class="display-4 text-white fw-bold">Hi, I'm John Doe</h1>
+                    <h1 class="display-4 text-white fw-bold">Hi, I'm Md Majharul Islam</h1>
                     <p class="lead text-white">Professional Web Developer & Designer</p>
-                    <a href="portfolio.html" class="btn btn-primary btn-lg mt-3">View My Work</a>
+                    <a href="{{ route('portfolio') }}" class="btn btn-primary btn-lg mt-3">View My Work</a>
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@
                         <div class="card-body">
                             <h5 class="card-title">{{ $featuredWork['title'] }}</h5>
                             <p class="card-text">{{ $featuredWork['short_description'] }}</p>
-                            <a href="portfolio.html" class="btn btn-outline-primary">View Project</a>
+                            <a href="{{ route('portfolio') }}" class="btn btn-outline-primary">View Project</a>
                         </div>
                     </div>
                 </div>
